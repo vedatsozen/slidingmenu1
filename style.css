@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: "Poppins", serif;
+    font-weight:500;
+    font-style: normal;
+    color: white !important;
+  }
+
+  header {
+        background: linear-gradient(to bottom, #000000, #15033f);
+      }
+
+      #linkler > a {
+        letter-spacing: 4px;
+        padding:4px 2px;
+        color: white;
+      }
+
+      #linkler > a.borderanim {
+        color: skyblue;
+        transition: 500ms ease;
+        transform-origin: left;
+      }
+
+      .menuarrow {
+        transform: rotate(0deg);
+        transition: 500ms ease;
+      }
+
+      .arrowupdown {
+        transform: rotate(180deg);
+        transition: 500ms ease;
+      }
+      
+      .slidingmenu {
+        padding-bottom: 12px !important;
+        transition: 500ms ease;
+      }
+
+    #hizmetlerslidingmenu.slidedown {
+        transform: translateY(596px);
+        transition: 500ms ease;
+    }
+
+    .slidingmenu > div > div {
+        border-radius: 5px;
+    }
+
+    .slidingmenu > div > h1,p {
+        opacity: 0.8;
+    }
+
+    .slidingmenu > div > div:hover {
+        box-shadow: 0 0 20px black;
+        transition: 500ms ease;
+        transform: translateY(-5px);
+        cursor: pointer;
+    }
